@@ -194,12 +194,6 @@ Answer with Citations
 
 ---
 
-## Portfolio Statement
-
-> Built a local-first RAG system that answers Ontario building permit questions using ChromaDB, Hugging Face embeddings, and a locally hosted LLM via Ollama, with source-aware responses and no paid API dependency.
-
----
-
 ## License
 
 MIT
