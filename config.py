@@ -1,0 +1,6 @@
+DB_DIR = "chroma_db"
+COLLECTION_NAME = "ontario_permit_docs"
+PDF_DIR = "data/pdfs"
+EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_MODEL = "phi3"
