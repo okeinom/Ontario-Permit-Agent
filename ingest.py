@@ -39,7 +39,7 @@ def ingest_pdfs():
             for chunk_index, chunk in enumerate(chunks):
                 embedding = model.encode(chunk).tolist()
 
-                collection.add(
+                collection.upsert(
                     ids=[f"{pdf_path.stem}-p{page_num}-c{chunk_index}"],
                     embeddings=[embedding],
                     documents=[chunk],
